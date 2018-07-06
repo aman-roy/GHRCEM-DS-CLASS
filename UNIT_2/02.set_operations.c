@@ -148,3 +148,19 @@ void SymDifference(int A[], int n1, int B[], int n2)
 
 	printf("\n");
 }
+
+/*
+
+Output:
+
+How many items in first list: 3
+Enter 3 items: 
+0 2 4
+How many items in second list: 3
+Enter 3 items: 
+1 2 3
+Press 1(Union), 2(Intersection), 3(Difference), 4(SymDifference)
+1
+Union : 0    2    4    1    3
+
+*/
