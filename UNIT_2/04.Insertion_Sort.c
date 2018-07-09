@@ -1,29 +1,37 @@
 #include<stdio.h>
-void main()
+
+int main()
 {
     //declaring variables
-    int i,j,count,temp,arr[20];
+    int count, temp, arr[20];
+
     //taking size of array from user
-    printf("enter number of elements");
+    printf("Enter number of elements: ");
     scanf("%d",&count);
+
+     printf("Enter %d elements:\n", count);
     //using for loop to take inputs for array
-    printf("enter elements\n");
-    for(i=0; i<count; i++)
+    for(int i = 0; i < count; i++)
         scanf("%d",&arr[i]);
+
     //logic for insertion sort
-    for(i=1; i<count; i++)
+    for(int i = 0; i < count; i++)
     {
-        temp=arr[i];
-        j=i-1;
-        while(temp<arr[j]&&j>=0)//for decending order just change "temp>arr"
+        for (int j = i; j > 0; j--)
         {
-            arr[j+1]=arr[j];
-            --j;
+            if (arr[j] < arr[j-1]) //for decending order change "arr[j]>arr[j-1]"
+            {
+                temp = arr[j];
+                arr[j] = arr[j-1];
+                arr[j-1] = temp;
+            }
         }
-        arr[j+1]=temp;
     }
+
     //printing sorted array
     printf("sorted array in acending order\n");
-    for(i=0; i<count; i++)
+    for(int i = 0; i < count; i++)
         printf("%d\n",arr[i]);
+
+    return 0;
 }
