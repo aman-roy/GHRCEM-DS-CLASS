@@ -31,7 +31,22 @@ int main()
     //printing sorted array
     printf("sorted array in acending order\n");
     for(int i = 0; i < count; i++)
-        printf("%d\n",arr[i]);
+        printf("%d\t",arr[i]);
+    printf("\n");
 
     return 0;
 }
+
+
+/*
+
+Output:
+
+Enter number of elements: 4
+Enter 4 elements:
+4 3 2 1
+sorted array in acending order
+1   2   3   4   
+
+
+*/

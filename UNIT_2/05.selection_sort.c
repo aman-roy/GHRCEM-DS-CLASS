@@ -40,7 +40,17 @@ int main()
 
 
 
+/*
 
+Output:
+
+Enter how many numbers: 10
+Enter 10 elements:
+67 4 56 54 76 86 342 87 1 3
+sorted array in acending order:
+1   3   4   54  56  67  76  86  87  342 
+
+*/
 
 
 

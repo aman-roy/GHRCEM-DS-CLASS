@@ -36,3 +36,15 @@ int main()
 
     return 0;
 }
+
+/*
+
+Output:
+
+Enter how many numbers: 5
+Enter 5 elements:
+3 33 45 2 5
+sorted array in acending order:
+2   3   5   33  45  
+
+*/
