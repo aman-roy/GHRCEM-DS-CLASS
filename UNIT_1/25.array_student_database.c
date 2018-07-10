@@ -3,8 +3,6 @@
 char name[100][20];
 int roll_no[100];
 
-void insert(int);
-void display(int);
 
 int main()
 {
