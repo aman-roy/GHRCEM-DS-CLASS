@@ -53,3 +53,29 @@ void main()
         printf("%d\t",x[i]);
 
 }
+
+
+
+
+
+
+
+
+/*
+output:-
+Enter elements for sorting : 9
+65
+6
+1
+0
+34
+76
+4
+Enter no of increments : 4
+Enter values of increment : 4
+3
+2
+1
+No of Comparisons required 22
+Sorted array is as follows      0       1       4       6       9       34      65      76
+*/
