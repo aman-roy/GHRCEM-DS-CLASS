@@ -42,6 +42,7 @@ int main()
 
 	int Arr[n];
 
+	printf("Enter %d numbers\n", n);
 	for (int i = 0; i < n; ++i)
 	{
 		scanf("%d", &Arr[i]);
@@ -58,3 +59,16 @@ int main()
 	
 	return 0;
 }
+
+
+/*
+
+Output:
+
+Enter how many numbers: 7
+Enter 7 numbers
+4 5 34 37 236 2 7
+After Sort
+2	4	5	7	34	37	236
+
+*/
