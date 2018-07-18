@@ -2,8 +2,7 @@
 
 int main()
 {
-	int n, key;
-	int entered = 0;
+	int n, key, i;
 
 	printf("How many numbers: ");
 	scanf("%d", &n);
@@ -11,7 +10,7 @@ int main()
 	int A[n];
 
 	printf("Enter %d numbers\n", n);
-	for (int i = 0; i < n; ++i)
+	for (i = 0; i < n; ++i)
 	{
 		scanf("%d", &A[i]);
 	}
@@ -20,16 +19,15 @@ int main()
 	scanf("%d", &key);
 
 	// Searching
-	for (int i = 0; i < n; ++i)
+	for (i = 0; i < n; ++i)
 	{
 		if (A[i] == key)
 		{
 			printf("The number is at %d location\n", (i+1));
-			entered = 1;
 		}
 	}
 
-	if (!entered)
+	if (i == n)
 	{
 		printf("Not Found!\n");
 	}
