@@ -8,7 +8,7 @@ int rear = -1;
 
 void enqueue()
 {
-	if (rear == MAX - 1)
+	if ((rear+1)%MAX == front)
 	{
 		printf("Can't Insert! FULL\n");
 		return;
@@ -19,7 +19,7 @@ void enqueue()
 		front++;
 	}
 	printf("Enter data: ");
-	scanf("%d", &A[++rear]);
+	scanf("%d", &A[(rear+1)%MAX]);
 }
 
 void dequeue()
@@ -29,13 +29,14 @@ void dequeue()
 		printf("Empty!\n");
 		return;
 	}
-	if (front > rear)
+	if (front == rear)
 	{
+		printf("data: %d\n", A[front]);
 		front = -1;
-		printf("Empty!\n");
+		rear = -1;
 		return;
 	}
-	printf("data: %d\n", A[front++]);
+	printf("data: %d\n", A[(rear+1)%MAX]);
 }
 
 void atFront()
