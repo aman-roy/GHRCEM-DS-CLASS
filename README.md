@@ -1,7 +1,7 @@
-# GHRCEM DS CLASS  [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/aman-roy)
+# GHRCEM DS CLASS 
 
 This repository contains code examples for the Data structure class(S.Y.B.tech).
-Course code ==**BCOL201**== and ==**BCOP201** ==
+Course code **BCOL201** and **BCOP201**
 ***
 ### Index
 - [Unit 1: Review of C](https://github.com/aman-roy/GHRCEM-DS-CLASS/tree/master/UNIT_1)
@@ -13,12 +13,12 @@ Course code ==**BCOL201**== and ==**BCOP201** ==
 
 ### Download
 
-![Download all the codes in zip](https://img.shields.io/badge/Click--to--Download-All--the--codes--in--zip-green.svg?longCache=true&style=for-the-badge)
+[![Download all the codes in zip](https://img.shields.io/badge/Click--to--Download-All--the--codes--in--zip-green.svg?longCache=true&style=for-the-badge)](https://github.com/aman-roy/GHRCEM-DS-CLASS/archive/master.zip)
 
 #### Guidance
  - Prof. Pournima More 
  - Manjushree Mahajan
 
 #### Contributors
- - [Aman Roy](http://amanroy.me) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/%3C-Moderator-green.svg?longCache=true&style=flat)
+ - [Aman Roy](http://amanroy.me) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/aman-roy)
  - [Kuldeep Rajpurohit](https://github.com/krrajpurohit)
