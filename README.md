@@ -1,6 +1,6 @@
 # GHRCEM DS CLASS 
 
-[![Say Thanks!](https://img.shields.io/badge/Click%20to%20Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/aman-roy) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:admin@amanroy.me?subject=GHRCEM-DS-CLASS) [![MIT LICENCE](https://img.shields.io/pypi/l/ansicolortags.svg)](https://opensource.org/licenses/MIT)
+[![Say Thanks!](https://img.shields.io/badge/Click%20to%20Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/aman-roy) ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](mailto:admin@amanroy.me?subject=GHRCEM-DS-CLASS) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/aman-roy/GHRCEM-DS-CLASS/blob/master/LICENSE)
 
 This repository contains code examples for the Data structure class(S.Y.B.tech).<br>Course code **BCOL201** and **BCOP201**
 ***
